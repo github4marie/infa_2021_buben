@@ -89,7 +89,7 @@ def main():
                             if procent > 85:
                                 bot.sendMessage(last_chat_id, "Почти всё правильно.")
                             elif procent > 40:
-                                bot.sendMessage(last_chat_id, "Программу нужно дороботать.")
+                                bot.sendMessage(last_chat_id, "Программу нужно доработать.")
                             elif procent > 0:
                                 bot.sendMessage(last_chat_id, "Есть правильные ответы, но их мало ")
                             else:
